@@ -1,6 +1,9 @@
 # Python 仮想環境（venv）を使った環境構築マニュアル
 このマニュアルでは、Python の venv モジュールを使って仮想環境を構築する手順を説明します。仮想環境は、プロジェクトごとに独立したパッケージやライブラリのセットを管理できるようにするためのツールです。
 
+![セットアップガイド](1.jpg)
+リンク：https://www.canva.com/design/DAGMYSdYUYk/RQ3x__u6iszcfdEW3735kw/edit?utm_content=DAGMYSdYUYk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 <b>前提条件</b>
 
 - Python 3.x がインストールされていること。
