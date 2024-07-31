@@ -115,7 +115,7 @@ $ pip freeze > requirements.txt
 ## 他の開発者が同じ環境を再現する方法
 他の開発者が同じ環境を再現するためには、requirements.txt ファイルを使ってパッケージをインストールします。
 
-1. 仮想環境を作成して仮想環境のスイッチを入れる
+<b>1. 仮想環境を作成して仮想環境のスイッチを入れる</b>
 
 - プロジェクトディレクトリに移動し、仮想環境を作成してスイッチをONする。
 
@@ -125,7 +125,7 @@ $ source venv/bin/activate
 ```
 
 
-2. パッケージをインストールする
+<b>2. パッケージをインストールする</b>
 
 - requirements.txt ファイルからパッケージをインストールします。
 
@@ -133,13 +133,13 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-3. Pythonを実行
+<b>3. Pythonを実行</b>
 
 ```
 $ python ファイル名
 ```
 
-4. 仮想環境のスイッチをOFFする
+<b>4. 仮想環境のスイッチをOFFする</b>
 
 ```
 $ deactivate
