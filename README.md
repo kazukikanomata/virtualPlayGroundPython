@@ -62,7 +62,7 @@ $ source venv/bin/activate
 
 ### マウスやキーボードの操作を自動化するライブラリをインストール
 
-<b>pyautoguiのインストール</b>
+<b>①pyautoguiのインストール</b>
 
 ```
 $ pip install pyautogui
@@ -71,7 +71,7 @@ $ pip install pyautogui
 参考：https://pypi.org/project/PyAutoGUI/
 
 
-<b>pynuputのインストール</b>
+<b>②pynuputのインストール</b>
 
 ```
 $ pip install pynuput
