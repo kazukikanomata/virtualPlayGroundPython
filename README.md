@@ -74,7 +74,7 @@ $ pip install pyautogui
 <b> ②pynuputのインストール</b>
 
 ```
-$ pip install pynuput
+$ pip install pynput
 ```
 
 参考：https://pypi.org/project/pynput/
