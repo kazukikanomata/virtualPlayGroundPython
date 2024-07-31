@@ -42,7 +42,7 @@ $ python3 -m venv venv
 ## 3. 仮想環境のスイッチをONする
 仮想環境のスイッチを入れます。これにより、仮想環境内の Python インタプリタとパッケージが使用されるようになります。
 
-MacOS/Linux
+<b>MacOS/Linux</b>
 
 ```
 $ source venv/bin/activate
@@ -58,7 +58,11 @@ $ source venv/bin/activate
 
 
 ## 4. パッケージをインストールする
-仮想環境のスイッチを入れた状態で、必要なパッケージをインストールします。例えば、PyAutoGUIパッケージをインストールするコマンドを実行します。
+仮想環境のスイッチを入れた状態で、必要なパッケージをインストールします。
+
+### マウスやキーボードの操作を自動化するライブラリをインストール
+
+<b>pyautoguiのインストール</b>
 
 ```
 $ pip install pyautogui
@@ -66,11 +70,32 @@ $ pip install pyautogui
 
 参考：https://pypi.org/project/PyAutoGUI/
 
-## 5. パッケージの一覧を保存する
-プロジェクトで使用するパッケージの一覧を requirements.txt ファイルに保存します。これにより、他の開発者が同じ環境を再現するのが簡単になります。
+
+<b>pynuputのインストール</b>
 
 ```
-$ pip freeze > requirements.txt
+$ pip install pynuput
+```
+
+参考：https://pypi.org/project/pynput/
+
+
+<b>pyinstallerのインストール</b>
+
+＊いまのところ不要
+
+```
+$ pip install pyinstaller
+```
+
+参考：https://pypi.org/project/pyinstaller/
+
+
+## 5. Python実行コマンド
+仮想環境のスイッチを入れた状態で、以下のコマンドを実行
+
+```
+$ python ファイル名
 ```
 
 ## 6. 仮想環境のスイッチをOFFする
@@ -80,6 +105,12 @@ $ pip freeze > requirements.txt
 $ deactivate
 ```
 
+## パッケージの一覧を保存する
+プロジェクトで使用するパッケージの一覧を requirements.txt ファイルに保存します。これにより、他の開発者が同じ環境を再現するのが簡単になります。
+
+```
+$ pip freeze > requirements.txt
+```
 
 ## 他の開発者が同じ環境を再現する方法
 他の開発者が同じ環境を再現するためには、requirements.txt ファイルを使ってパッケージをインストールします。
@@ -102,10 +133,14 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-
-## python実行コマンド
-仮想環境のスイッチを入れた状態で、以下のコマンドを実行
+3. Pythonを実行
 
 ```
 $ python ファイル名
+```
+
+4. 仮想環境のスイッチをOFFする
+
+```
+$ deactivate
 ```
